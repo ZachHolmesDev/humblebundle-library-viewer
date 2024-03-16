@@ -2,7 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import fileUpload from './components/fileUpload'
+import FileUpload from './components/FileUpload'
 
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
   
   return (
 	<>
-	{/* <h1>hello app</h1>	 */}
-	<fileUpload />
+	<h1>humblebundle-library-viewer</h1>	
+	<FileUpload />
 	</>
   )
 }
