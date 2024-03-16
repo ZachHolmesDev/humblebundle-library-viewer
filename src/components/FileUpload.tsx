@@ -8,13 +8,12 @@ function FileUpload() {
       if (event.target.files && event.target.files.length > 0) {
         setSelectedFile(event.target.files[0])
       } else {
-        
+
       }
     }
   
   return (
     <div>
-      for
       <label htmlFor="file-upload">Upload your Humble libary JSON here : </label>
       <input 
         type="file" 
