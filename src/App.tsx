@@ -1,17 +1,16 @@
 // import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
 import FileUpload from './components/FileUpload'
+import GameCard from './components/GameCard'
 
 
 function App() {
-
-  
   return (
 	<>
 	<h1>humblebundle-library-viewer</h1>	
 	<FileUpload />
+	<hr />
+	<GameCard />
 	</>
   )
 }

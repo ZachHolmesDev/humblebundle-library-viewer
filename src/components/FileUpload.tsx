@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useState } from 'react'
+import { ChangeEvent, useState } from 'react'
 
 function FileUpload() {
     const [selectedFile, setSelectedFile] = useState<File | undefined>(undefined)
