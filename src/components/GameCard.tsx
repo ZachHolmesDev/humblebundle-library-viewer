@@ -28,7 +28,7 @@ function GameCard() {
 	return (
 		<div>
 			<h1>{Stationeers.name}</h1>
-			<h2>{game[]}</h2>
+			<h2>{game.data}</h2>
 			{/* <p>{gameDetails && JSON.stringify(gameDetails)}</p> */}
 			{/* <h2>{game.key.GameData}</h2> */}
 		</div>

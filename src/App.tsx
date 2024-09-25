@@ -2,6 +2,7 @@
 import './App.css'
 import FileUpload from './components/FileUpload'
 import GameCard from './components/GameCard'
+import GameCard2 from './components/GameCard2'
 
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
 	<h1>humblebundle-library-viewer</h1>	
 	<FileUpload />
 	<hr />
-	<GameCard />
+	{/* <GameCard /> */}
+	<GameCard2 />
 	</>
   )
 }
